@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Lato:wght@300;400&family=Roboto:wght@300&display=swap');
 
-body {
+/* body {
     max-width: 1170px;
     min-width: 360px;
     margin: 0 auto;
     background-color: #8b8a8b;
+} */
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
 }
-
 .firstbanner {
     font-family: 'Inter', sans-serif;
     width: 1440px;
@@ -138,7 +141,7 @@ button {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 13px;
     line-height: 20px;
     color: #0D0C22;
 }
@@ -153,7 +156,8 @@ button {
     gap: 10px;
     width: 560px;
     height: 40px;
-    background: #fdeeee;
+    background: #fff;
+    box-shadow: 0px 12px 24px -6px rgba(96, 96, 96, 0.15), 0px 0px 1px rgba(96, 96, 96, 0.1);
     border-radius: 16px;
     margin-top: 72px;
     margin-left: 73px;
@@ -308,6 +312,9 @@ button {
     border-radius: 6px;
 
 }
+.ban p{
+    font-size: 14px;
+}
 
 .sixthbanner {
     width: 360px;
@@ -315,6 +322,7 @@ button {
     height: 170px;
     background: #FFFFFF;
     border-radius: 16px;
+    box-shadow: 0px 12px 24px -6px rgba(96, 96, 96, 0.15), 0px 0px 1px rgba(96, 96, 96, 0.1);
     font-family: 'Roboto', sans-serif;
 }
 
@@ -325,6 +333,7 @@ button {
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
+    
 
 }
 
@@ -366,7 +375,7 @@ button {
     color: #FFFFFF;
     width: 160px;
     height: 32px;
-    background: #416e65;
+    background: #40C1A7;
     box-shadow: 0px 2px 2px -2px rgba(34, 38, 50, 0.3);
     border-radius: 6px;
 }
@@ -380,8 +389,9 @@ button {
     font-family: 'Inter', sans-serif;
     width: 320px;
     height: 260px;
-    background: #FFFFFF;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.15) 0%, rgba(186, 226, 255, 0.15) 23.96%, rgba(229, 217, 255, 0.15) 71.87%, rgba(255, 255, 255, 0.15) 100%), #FFFFFF;
     border-radius: 20px;
+    box-shadow: 0px 8px 32px rgba(10, 3, 89, 0.1);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -443,6 +453,7 @@ button {
     padding: 15px;
     width: 300px;
     height: 110px;
+    box-shadow: 0px 8px 32px rgba(10, 3, 89, 0.1);
     background: #FFFFFF;
     border-radius: 4px;
 

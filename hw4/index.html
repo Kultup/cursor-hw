@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,74 +8,86 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
-    <div class="header">
-        <h2>Stay focused on saving money</h2>
-    </div>
-    <div class="intro">
-        <p>It is important to stay focused on saving money in any way you can. We help you monitor your spending habits so you can easily spot and cut any unnecessary expenses. Simply join today to get started!</p>
-    </div>
-    <div class="app-icons">
-        <img src="/hw4/img/google-play.png" alt="google-play" width="28px">
-        <img src="/hw4/img/app-store.png" alt="app-store" width="28px">
-        <img src="/hw4/img/windows.png" alt="windows" width="28px">
-    </div>
-    <div class="photo-gallery">
-        <img src="/hw4/img/pfoto-back.png" alt="foto">
-        <img src="/hw4/img/pfoto-front.png" alt="foto">
-    </div>
-    <div class="contact-heade">
-        <h1>Contact</h1>
-    </div>
-    <div class="contact-info">
-       <p>Questions or concerns? Just fill out the form below and our support team will get back to you within 24 hours</p> 
-    </div>
-    <div  class="contact-form">
-        <input type="first name">
-        <input type="text">
-        <input type="text">
-        <select name="" id=""></select>
-    </div>
-    <div class="submit-button">
-        <button>SUBMIT NOW</button>
-    </div>
-    <div class="address-header">
-        <h4>Address</h4>
-    </div>
-    <div class="address-info">
-        <p>Pipang Ltd, Griva Digeni,
-            81-83 Jacovides Tower, 1st Floor
-            1090 Picosia USA</p>
-    </div>
-    <div class="services-header"">
-        <h4>Services</h4>
-    </div>
-    <div class="services-list">
-       <p>Services
-        overview
-        features
-        technology
-        Terms & Conditions
-        Privecy
-        </p>
-    </div>
-    <div class="get-in-touch-header">
-        <h4>Get in Touch</h4>
-    </div>
-    <div class="get-in-touch-info">
-        <p>info@cloudbudget.com</p>
-        <p>+1 844-721-7120</p>
-    </div>
-    <div class="social-icons">
-        <img src="/hw4/img/facebook.png" alt="facebook" width="28px">
-        <img src="/hw4/img/linkedin.png" alt="linkedin" width="28px">
-        <img src="/hw4/img/twiter.png" alt="twiter" width="28px">
-    </div>
-    <div class="support-header">
-        <h4>We Support</h4>
-    </div>
-    <div class="supported-cards">
-        <img src="/hw4/img/visa.png" alt="visa">
-    </div>
+    <main>
+        <section class="first_section">
+            <div class="first_section_text">
+                <h1>Stay focused on saving money</h1>
+                <p>It is important to stay focused on saving money in any way you can. We help you monitor your spending habits so you can easily spot and cut any unnecessary expenses. Simply join today to get started!</p>
+                <div class="icons">
+                    <img id="playstore" src="/hw4/img/google-play.png" alt="Google PlayStore icon" width="32px">
+                    <img id="appstore" class="appstore_icon" src="/hw4/img/app-store.png" alt="AppStore icon" width="32px">
+                    <img id="windows" src="/hw4/img/windows.png" alt="Windows icon" width="32px">
+                </div>
+            </div>
+            <div class="first_section_photos">
+                <img class="second_bc_photo" src="./img/main_photo1.png" alt="Second main photo">
+                <img class="main_photo" src="./img/main_photo2.png" alt="Third main photo">
+                <img class="first_bc_photo" src="./img/main_photo.png" alt="First main photo">
+            </div>
+        </section>
+        <section class="second_section">
+            <div class="second_section_text">
+                <h2>Contact</h2>
+                <p>Questions or concerns? Just fill out the form below and our support team will get back to you within 24 hours</p>
+            </div>
+            <form action="#">
+                <input type="text" name="name" id="name" placeholder="First Name">
+                <input type="text" name="name" id="lastName" placeholder="Last Name">
+                <input type="text" name="phone" id="phone" placeholder="Phone Number">
+                <select id="selection" name="mostLike" required>
+                    <option class="selection_first_option" selected value="service">Select Service</option>
+                    <option value="challenges">Challenges</option>
+                    <option value="projects">Projects</option>
+                    <option value="community">Community</option>
+                    <option value="openSource">Open Source</option>
+                    <option value="other">Other</option>
+                </select>
+                <button class="submit_button" type="submit">Submit now</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="address">
+            <h3>Address</h3>
+            <p>Pipang Ltd, Griva Digeni,<br>81-83 Jacovides Tower, 1st Floor<br>1090 Picosia USA</p>
+            <p>Copyright 2018 CloudBudget</p>
+        </div>
+        <div class="services">
+            <h3>Services</h3>
+            <ul>
+                <li>Overview</li>
+                <li>Features</li>
+                <li>Technology</li>
+                <li>Terms & Conditions</li>
+                <li>Privacy</li>
+            </ul>
+        </div>
+        <div class="get_in_touch">
+            <h3>Get in Touch</h3>
+            <a href="#">info@cloudbudget.com</a>
+            <br>
+            <a href="#">+1 844-721-7120</a>
+            <div>
+                <img src="./img/icons/facebook.svg" alt="Facebook icon">
+                <img src="./img/icons/linkedin.svg" alt="LinkedIn icon">
+                <img src="./img/icons/twitter.svg" alt="Twitter icon">
+            </div>
+        </div>
+        <div class="we_support">
+            <h3>We Support</h3>
+            <img src="./img/card.png" alt="Card photo">
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+        $("#playstore").fadeOut(2000);
+        $("#playstore").fadeIn(1000);
+        $("#appstore").fadeOut(2500);
+        $("#appstore").fadeIn(1500);
+        $("#windows").fadeOut(3000);
+        $("#windows").fadeIn(2000);
+    </script>
 </body>
 </html>
