@@ -85,7 +85,7 @@ main {
     line-height: 43px;
 }
 
-.second_text>p {
+.second_text p {
     max-width: 434px;
     font-style: normal;
     font-weight: 400;
