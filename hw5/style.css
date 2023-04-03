@@ -1,0 +1,135 @@
+* {
+   box-sizing: border-box;
+   font-size: 16px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: #242424;
+}
+
+.wrapper {
+   max-width: 1200px;
+   padding: 70px;
+}
+.triangle {
+   display: inline-block;
+   width: 0;
+   height: 0;
+   border-left: 4px solid transparent;
+   border-right: 4px solid transparent;
+   border-top: 8px solid rgb(255, 255, 255);
+   cursor: pointer;
+}
+
+.box {
+   display: flex;
+   justify-content: end;
+   cursor: pointer;
+}
+
+.dot1 {
+   width: 3px;
+   height: 3px;
+   border-radius: 50%;
+   background-color: #fff;
+   margin-right: 2px;
+}
+
+.dot2 {
+   width: 3px;
+   height: 3px;
+   border-radius: 50%;
+   background-color: #fff;
+   margin-right: 2px;
+}
+
+.dot3 {
+   width: 3px;
+   height: 3px;
+   border-radius: 50%;
+   background-color: #fff;
+   margin-right: 2px;
+}
+
+tr {
+   width: 30px;
+}
+
+input {
+   cursor: pointer;
+}
+
+.text-color {
+   color: #585858;
+   text-align: center;
+
+}
+
+.th-position {
+   padding-left: 90px;
+}
+
+
+
+
+table {
+   margin: 70px 30px 0px 30px;
+   width: 100%;
+   border: 2px solid #373737;
+   text-align: left;
+   border-collapse: separate;
+   border-spacing: 15px;
+   background-color: #242424;
+   color: #cac7c7;
+   border-radius: 5px;
+   border-spacing: 0;
+}
+
+
+
+td,th {
+   border-bottom: 2px solid #3d3d3d;
+   border-spacing: 0;
+   min-width: 250px;
+   max-height: 45px;
+   padding: 15px;
+
+}
+
+.input-search {
+   padding-left: 40px;
+   border-radius: 4px;
+   background-color: #3d3c3c;
+   height: 45px;
+   width: 200px;
+   color: rgb(255, 255, 255);
+}
+
+.tr-padding {
+   padding: 3px;
+}
+
+.fixed td {
+   border-bottom: none;
+}
+
+img {
+   width: 20px;
+   height: 20px;
+   margin-bottom: 10px;
+   margin-right: 10px;
+}
+
+.input-box {
+   position: relative;
+   left: 145px;
+}
+
+.img-lupa {
+   position: absolute;
+   top: 25%;
+   transform: translate(-50%, 0);
+   left: 30px;
+}

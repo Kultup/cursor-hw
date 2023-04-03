@@ -1,90 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="./style/style.css">
-	<title>HW #05</title>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>home work04</title>
+   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<main>
-		<section class="section_1">
-			<table>
-				<tr>
-					<th class="name">Name</th>
-					<th class="date">Date</th>
-				</tr>
-				<tr>
-					<td class="file_name">File.pdf</td>
-					<td class="date_time_first">3 min ago</td>
-				</tr>
-				<tr>
-					<td class="file_name">File.pdf</td>
-					<td class="date_time_first">Yesterday</td>
-				</tr>
-				<tr>
-					<td class="file_name">File.pdf</td>
-					<td class="date_time_first">June 1st, 2019</td>
-				</tr>
-			</table>
-		</section>
-		<section class="section_2">
-			<table>
-				<tr>
-					<th class="name_2">
-						<input type="checkbox" name="name" value="Name" checked>
-						<label for="Name">Name</label>
-					</th>
-					<th class="date">Date</th>
-				</tr>
-				<tr>
-					<td class="file_name">
-						<input type="checkbox" name="file" value="file_pdf">
-						<label for="file">File.pdf</label>
-					</td>
-					<td class="date_time">3 min ago</td>
-				</tr>
-				<tr>
-					<td class="file_name">
-						<input type="checkbox" name="file" value="file_pdf" checked>
-						<label for="file">File.pdf</label>
-					</td>
-					<td class="date_time">Yesterday</td>
-				</tr>
-				<tr>
-					<td class="file_name">
-						<input type="checkbox" name="file" value="file_pdf">
-						<label for="file">File.pdf</label>
-					</td>
-					<td class="date_time">June 1st, 2019</td>
-				</tr>
-			</table>
-		</section>
-		<section class="section_3">
-			<table>
-			<tr>
-				<th class="name">Name</th>
-				<th class="date_3">
-					<div class="search_div">
-						<label class="search" for="search">Date</label>
-						<input class="search_input" type="search" name="search" value="" placeholder="Search">
-				</th>
-			</tr>
-			<tr>
-				<td class="file_name_3">File.pdf</td>
-				<td class="date_time">3 min ago</td>
-			</tr>
-			<tr>
-				<td class="file_name_3">File.pdf</td>
-				<td class="date_time">Yesterday</td>
-			</tr>
-			<tr>
-				<td class="file_name_3">File.pdf</td>
-				<td class="date_time">June 1st, 2019</td>
-			</tr>
-		</table>
-		</section>
-	</main>
+   
+   <div class="wrapper">
+      <section class="first">
+         <table>
+            <tr>
+               <th>Name 
+                     <div class="triangle"></div>
+                  </th>
+               <th class="th-position" colspan="2">Data</th>
+            </tr>
+            <tr>
+               <td>File.pdf</td>
+               <td class="text-color">3 mins ago</td>
+               <td>
+                  <div class="box">
+                     <div class="dot1"></div>
+                     <div class="dot2"></div>
+                     <div class="dot3"></div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td>File.pdf</td>
+               <td class="text-color">Yesterday</td>
+               <td>
+                  <div class="box">
+                     <div class="dot1"></div>
+                     <div class="dot2"></div>
+                     <div class="dot3"></div>
+                  </div>
+               </td>
+            </tr>
+            <tr class="fixed">
+               <td>File.pdf</td>
+               <td class="text-color">Jun 1st,2019 </td>
+               <td>
+                  <div class="box">
+                     <div class="dot1"></div>
+                     <div class="dot2"></div>
+                     <div class="dot3"></div>
+                  </div>
+               </td>
+            </tr>
+         </table>
+      </section>
+      <section class="second">
+         <table>
+            <tr>
+               <th>
+                  <input type="checkbox" checked>
+                  Name
+                  <span class="triangle"></span>
+                </th>
+                
+               <th class="th-position" colspan="2">Data</th>
+            </tr>
+            <tr>
+               <td> <input type="checkbox"> File.pdf</td>
+               <td class="text-color">3 mins ago</td>
+               <td>
+                  <div class="box">
+                     <div class="dot1"></div>
+                     <div class="dot2"></div>
+                     <div class="dot3"></div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td> <input type="checkbox" checked> File.pdf</td>
+               <td class="text-color">Yesterday</td>
+               <td>
+                  <div class="box">
+                     <div class="dot1"></div>
+                     <div class="dot2"></div>
+                     <div class="dot3"></div>
+                  </div>
+               </td>
+            </tr>
+            <tr class="fix">
+               <td> <input type="checkbox"> File.pdf</td>
+               <td class="text-color">Jun 1st,2019 </td>
+               <td>
+                  <div class="box">
+                     <div class="dot1"></div>
+                     <div class="dot2"></div>
+                     <div class="dot3"></div>
+                  </div>
+               </td>
+            </tr>
+         </table>
+      </section>
+      <section class="third">
+         <table>
+            <tr>
+               <th>
+                  Name 
+                  <span class="triangle"></span>
+                </th>                
+               <th class="th-position">Data</th>
+               <td class="tr-padding">
+                  <div class="input-box">
+                     <img class="img-lupa" src="./img/lupa.png" alt="#">
+                     <input class="input-search" type="text" value="" name="search" placeholder="Search">
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td><img src="./img/add.png" alt="#">File.pdf</td>
+               <td class="text-color">3 mins ago</td>
+               <td>
+                  <div class="box">
+                     <div class="dot1"></div>
+                     <div class="dot2"></div>
+                     <div class="dot3"></div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td> <img src="./img/add.png" alt="#">File.pdf</td>
+               <td class="text-color">Yesterday</td>
+               <td>
+                  <div class="box">
+                     <div class="dot1"></div>
+                     <div class="dot2"></div>
+                     <div class="dot3"></div>
+                  </div>
+               </td>
+            </tr>
+            <tr class="fix">
+               <td> <img src="./img/add.png" alt="#">File.pdf</td>
+               <td class="text-color">Jun 1st,2019 </td>
+               <td>
+                  <div class="box">
+                     <div class="dot1"></div>
+                     <div class="dot2"></div>
+                     <div class="dot3"></div>
+                  </div>
+               </td>
+            </tr>
+         </table>
+      </section>
+   </div>
 </body>
+
 </html>
